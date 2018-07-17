@@ -243,3 +243,56 @@ h2 {
 #jungName {
   opacity: 0;
 }
+
+.degLayer3 {
+  position: absolute;
+  top: 770vh;
+  left: -30%;
+  width: 200%;
+  height: 200vh;
+  background-color: #AC92EA;
+  -webkit-transform: rotate(-35deg);
+  z-index: 13;
+  border-top: solid 6px black;
+  border-bottom: solid 6px black;
+}
+
+.square3 {
+  width: 28.4%;
+  height: 70%;
+  position: absolute;
+  background-color: #AC92EA;
+  top: 746vh;
+  left: 0px;
+  z-index: 13;
+}
+
+.person3 {
+  position: absolute;
+  top: 715vh;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(image/josu.jpg);
+  background-size: 100% 100%;
+  z-index: 1;
+  border-bottom: solid 6px black;
+}
+
+.explain3 {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  z-index: 13;
+  top: 725vh;
+  left: 12%;
+}
+/*
+#joEx {
+  opacity: 0;
+}
+
+#joName {
+  opacity: 0;
+}
+*/

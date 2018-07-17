@@ -5,6 +5,10 @@ $(document).ready(function () {
 
   var count3 = 0;
   var count4 = 0;
+  var thirdLayer = 770;
+
+  var count5 = 0;
+  var count6 = 0;
   $('.parallax').scroll(function () {
       if($(this).scrollTop() < 4825){
         $('.continue.three').show();
@@ -15,7 +19,7 @@ $(document).ready(function () {
           $('#kangName').css("opacity",count2/100);
         }
         if(secondLayer <= 650){
-          secondLayer += 10;
+          secondLayer += 20;
           $('.degLayer2').css("top",secondLayer+"vh");
         }
       }
@@ -27,11 +31,11 @@ $(document).ready(function () {
         //console.log(count1);
         console.log("count2 : " + count2);
         if(count1 <= 100)
-          count1 += 2;
+          count1 += 4;
         $('.continue.three').hide();
         $('#kangEx').css("opacity",count1/100);
         if(count1 >= 100 && count2 <= 100){
-            count2 += 3;
+            count2 += 4;
             $('#kangName').css("opacity",count2/100);
         }
 
@@ -50,17 +54,46 @@ $(document).ready(function () {
             $('#jungName').css("opacity",count4/100);
           }
 
+          if(thirdLayer <= 770){
+            thirdLayer += 20;
+            $('.degLayer3').css("top",thirdLayer+"vh");
+          }
       }
 
-      if($(this).scrollTop() >= 5725){
+      if($(this).scrollTop() >= 5725 && $(this).scrollTop() < 6622){
         if(count3 <= 100)
-          count3 += 2;
+          count3 += 4;
         $('#jungEx').css("opacity",count3/100);
         if(count3 >= 100 && count4 <= 100){
-            count4 += 3;
+            count4 += 4;
             $('#jungName').css("opacity",count4/100);
         }
-          $(this).scrollTop(5725);
+        if((count3 >= 100 && count4 >= 100) && thirdLayer >= 545){
+            thirdLayer -= 5;
+          $('.degLayer3').css("top",thirdLayer+"vh");
+        }
+
+        if(!(thirdLayer < 545))
+          $(this).scrollTop(5725);//6970
+
+          if((count5||count6) >= 0){
+            count5 -= 5;
+            count6 -= 5;
+            $('#joEx').css("opacity",count5/100);
+            $('#joName').css("opacity",count6/100);
+          }
+      }
+
+
+      if($(this).scrollTop() >= 6622){
+        if(count5 <= 100)
+          count5 += 4;
+        $('#joEx').css("opacity",count5/100);
+        if(count5 >= 100 && count6 <= 100){
+            count6 += 4;
+            $('#joName').css("opacity",count6/100);
+        }
+        $(this).scrollTop(6622);
       }
 
       var curTop = $(this).scrollTop();
