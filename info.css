@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+/*::-webkit-scrollbar {
+  display: none;
+}*/
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top:0px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 8vw;
+  margin-top: 0px;
+  font-family: 'nanum brush script', serif;
+  font-weight: 50;
+  letter-spacing: .2em;
+  text-align: center;
+  color: white;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+h2 {
+  margin-top: 0px;
+  font-family: 'nanum brush script', serif;
+  font-weight: 900;
+  letter-spacing: .2em;
+  text-align: center;
+  color: white;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#h2_1 {
+  font-size: 7vw;
+}
+#h2_2 {
+  font-size: 6.8vw;
+}
+#h2_3 {
+  font-size: 5.7vw;
+}
+.team {
+  position: absolute;
+  top:55%;
+  width: 100%;
+  z-index: 1;
+}
+
+.half {
+  position: fixed;
+  top:40%;
+  width: 100%;
+  height: 60vh;
+
+  z-index: 1;
+}
+.scene {
+  height: 100vh;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.scene.main {
+  background-image: url(image/wallpaper2.jpg);
+}
+.scene.first{
+  background-image: url(image/first.jpg);
+}
+.scene.second{
+  background-image: url(image/second.jpg);
+}
+.scene.third{
+  background-image: url(image/third.jpg);
+}
+.block-one {
+  width: 100%;
+  height:70%;
+}
+
+.block-two {
+  width: 100%;
+  height:10%;
+}
+
+.block-three {
+  width: 100%;
+  height:17%;
+}
+.parallax {
+  z-index: 999;
+  transform-style: preserve-3d;
+  -webkit-perspective: 300px;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.parallaxGroup {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #FCD277;
+}
+.continue {
+  width: 100%;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+.continue.one {
+  height: 100vh;
+  transform: translateZ(0);
+  background-color: #FCD277;
+  border-top: solid 7px black;
+}
+.continue.two {
+  margin-top:200px;
+  height: 100vh;
+  transform: translateZ(-170px) scale(2);
+  background-color: #FECD57;
+  border-top: solid 6px black;
+}
+.continue.three {
+  margin-top: 200px;
+  height: 100vh;
+  transform: translateZ(-500px) scale(3);
+  background-color: #F5BA45;
+  border-top: solid 6px black;
+}
+
+
+.degLayer {
+  position: absolute;
+  top:350vh;
+  left:-30%;
+  width: 200%;
+  height: 200vh;
+  background-color: #FB6D51;
+  -webkit-transform: rotate(-35deg);
+  z-index: 10;
+  border-top: solid 6px black;
+  border-bottom: solid 6px black;
+}
+
+.square {
+  width: 28.4%;
+  height: 70%;
+  position: absolute;
+  background-color: #FB6D51;
+  bottom: -509.5vh;
+  left: 0px;
+  z-index:11;
+}
+
+.person {
+  position: absolute;
+  bottom: -509.5vh;
+  right: 0px;
+  width: 100%;
+  height: 80%;
+  background-image: url(image/kangJin.jpg);
+  background-size: 100% 100%;
+  z-index: 1;
+  border-bottom: solid 6px black;
+}
+
+.explain {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  z-index: 11;
+  top: 530vh;
+  left: 10%;
+}
+
+.load {
+  position: absolute;
+  top: 609.5vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #FB6D51;
+  left: 0px;
+  z-index: 11;
+}
+
+#kangEx {
+  opacity: 0;
+}
+
+#kangName {
+  opacity: 0;
+}
+
+.degLayer2 {
+  position: absolute;
+    top: 650vh;
+    left: -100%;
+    width: 230%;
+    height: 200vh;
+    background-color: #424953;
+
+    -webkit-transform: rotate(35deg);
+    z-index: 10;
+    border-top: solid 6px black;
+    border-bottom: solid 6px black;
+    z-index: 12;
+}
+
+.person2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(image/kimJung.jpg);
+    background-size: 100% 100%;
+    top: 610vh;
+    z-index: 11;
+    left: 0;
+}
+
+.load2 {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  background-color: #424953;
+
+  top: 620vh;
+  right: 0px;
+  z-index: 12;
+}
+
+.explain2 {
+  position: absolute;
+  width: 43%;
+  height: 20%;
+  z-index: 12;
+  top: 625vh;
+  left: 40%;
+}
+
+#jungEx {
+  opacity: 0;
+}
+
+#jungName {
+  opacity: 0;
+}
