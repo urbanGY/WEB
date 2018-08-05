@@ -31,11 +31,13 @@ router.route('/page3').get(function(req, res) {
 router.route('/text').post(function(req, res) {
   var text = req.body.text;
   console.log("text : "+text);
+  /*
   var sendText = {
     returnText : "send "+text
   }
   console.log("sned text : "+sendText.returnText);
   res.json(sendText);
+  */
 });
 
 app.use('/',router);
