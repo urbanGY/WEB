@@ -1,0 +1,219 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>&#44592;&#47492; &#44050;, &#50724;&#47484;&#46416; LTE &#45236;&#47540;&#46416; &#44144;&#48513;&#51060;... &#48276;&#51064;&#51008; &#45572;&#44396;?</title><meta name="generator" content="MATLAB 9.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-10-11"><meta name="DC.source" content="gocomsoo.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1><b>&#44592;&#47492; &#44050;, &#50724;&#47484;&#46416; LTE &#45236;&#47540;&#46416; &#44144;&#48513;&#51060;... &#48276;&#51064;&#51008; &#45572;&#44396;?</b></h1><!--introduction--><p><b>&#45936;&#51060;&#53552;&#48516;&#49437;&#51012; &#53685;&#54644; &#50896;&#50976;&#44032;&#44201;&#51032; &#54616;&#46973;&#50640;&#46020; &#51096; &#46504;&#50612;&#51648;&#51648; &#50506;&#45716; &#55064;&#48156;&#50976; &#44050;&#51032; &#48276;&#51064;&#51012; &#50508;&#50500;&#48372;&#51088;.</b> <b>&#48708;&#44368; &#45936;&#51060;&#53552; : 2009 - 2018 &#44592;&#44036;&#46041;&#50504;&#51032; &#50896;&#50976; &#44050;(&#46160;&#48148;&#51060;), &#49905;&#44032;&#54260; &#51221;&#51228; &#47560;&#51652;, &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;( &#48372;&#53685; &#55064;&#48156;&#50976;)</b></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1"><b>&#50896;&#50976;&#50752; &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;&#51032; &#44288;&#44228;</b></a></li><li><a href="#4"><b>&#51221;&#50976;&#49324;&#51032; &#50696;&#49345;&#44277;&#44553;&#44032;&#50752; &#49892;&#51228; &#44277;&#44553;&#44032;</b></a></li><li><a href="#8"><b>&#49464;&#44552;&#51060; &#50896;&#51064;&#51068;&#44620;?</b></a></li><li><a href="#10"><b>&#50896;&#50976;&#50752; &#50976;&#47448;&#49464;</b></a></li><li><a href="#14"><b>&#44208;&#47200;</b></a></li></ul></div><h2 id="1"><b>&#50896;&#50976;&#50752; &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;&#51032; &#44288;&#44228;</b></h2><div><ul><li>&#50896;&#50976;&#44032;&#51032; &#48320;&#46041;&#50640; &#46384;&#47480; &#49548;&#48708;&#51088; &#44032;&#44201;&#51008; &#48708;&#47168;&#54620;&#44032; ?</li></ul></div><pre class="codeinput">plot(date,[oil,supply]);
+xlabel(<span class="string">'&#45216;&#51676;(2009 - 2018)'</span>);
+ylabel(<span class="string">'&#44032;&#44201;(&#50896;)'</span>);
+title(<span class="string">'2009 - 2018 &#50896;&#50976;, &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;'</span>,<span class="string">'fontsize'</span>,15);
+legend(<span class="string">' &#50896;&#50976; &#44032;&#44201;'</span>,<span class="string">' &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;'</span>);
+</pre><img vspace="5" hspace="5" src="gocomsoo_01.png" alt=""> <p>&#8857; &#46160; &#44536;&#47000;&#54532;&#47484; &#53685;&#54644; &#50976;&#49324;&#54616;&#44172; &#48320;&#54868;&#54616;&#45716; &#44536;&#47000;&#54532;&#47484; &#48380; &#49688; &#51080;&#51648;&#47564;, &#50896;&#50976;&#44032;&#50752; &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;&#52264;&#51060;&#51032; &#51060;&#50976;&#47484; &#49444;&#47749;&#54624; &#49688; &#50630;&#45796;. &#8594; &#51221;&#50976;&#49324;&#51032; &#50696;&#49345; &#47560;&#51652;(&#49905;&#44032;&#54260;&#51221;&#51116;&#47560;&#51652;)&#51012; &#51060;&#50857;&#54644; &#48708;&#44368;&#54644;&#48372;&#51088;.</p><h2 id="4"><b>&#51221;&#50976;&#49324;&#51032; &#50696;&#49345;&#44277;&#44553;&#44032;&#50752; &#49892;&#51228; &#44277;&#44553;&#44032;</b></h2><pre class="codeinput">plot(date,[oil,supply,oil_Singapore]);
+xlabel(<span class="string">'&#45216;&#51676;(2009 - 2018)'</span>);
+ylabel(<span class="string">'&#44032;&#44201;(&#50896;)'</span>);
+title(<span class="string">'2009-2018 &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;&#51032; &#52264;&#51060;'</span>,<span class="string">'fontsize'</span>,15);
+legend(<span class="string">' &#50896;&#50976; &#44032;&#44201;'</span>,<span class="string">' &#51221;&#50976;&#49324; &#49892;&#51228; &#44277;&#44553;&#44032;'</span>,<span class="string">'&#51221;&#50976;&#49324; &#50696;&#49345; &#44277;&#44553;&#44032;'</span>);
+</pre><img vspace="5" hspace="5" src="gocomsoo_02.png" alt=""> <pre>                           (&#51221;&#50976;&#49324; &#50696;&#49345; &#44277;&#44553;&#44032; = &#50896;&#50976; &#44032;&#44201; + &#51221;&#50976;&#49324; &#50696;&#49345; &#47560;&#51652;)</pre><div><ul><li>&#51221;&#50976;&#49324;&#51032; &#50696;&#49345; &#44277;&#44553;&#44032;&#50752; &#51221;&#50976;&#49324;&#51032; &#44277;&#44553;&#44032; &#52264;&#51060;  &#8594; &#49905;&#44032;&#54260;&#51221;&#51116;&#47560;&#51652;&#51012; &#53685;&#54644;&#49436; &#51221;&#50976;&#49324;&#51032; &#50696;&#49345; &#47560;&#51652;&#51012; &#44396;&#54644;&#48420;&#51648;&#47564; &#51221;&#50976;&#49324;&#51032; &#50696;&#49345; &#44277;&#44553;&#44032;&#50752; &#49892;&#51228; &#44277;&#44553;&#44032; &#49324;&#51060;&#50640;&#45716; &#50668;&#51204;&#55176; &#53360; &#52264;&#51060;&#44032; &#51080;&#45796;.</li></ul></div><div><ul><li><b>&#50612;&#46500; &#50836;&#51064;&#51060; &#51060; &#52264;&#51060;&#47484; &#47564;&#46300;&#45716; &#44163;&#51068;&#44620;?</b></li></ul></div><h2 id="8"><b>&#49464;&#44552;&#51060; &#50896;&#51064;&#51068;&#44620;?</b></h2><p>&#49464;&#44552;&#51012; &#51228;&#54616;&#44256; &#48708;&#44368;&#54644; &#48372;&#50520;&#51012; &#46412;, &#50864;&#47532;&#45716; &#51221;&#50976;&#49548; &#50696;&#49345;&#44277;&#44553;&#44032;&#50752; &#49464;&#51204;&#49892;&#51228;&#44277;&#44553;&#44032;&#51032; &#52264;&#51060;&#44032; &#53356;&#51648; &#50506;&#45796;&#45716; &#44163;&#50640; &#51452;&#47785;&#54664;&#45796;.</p><pre class="codeinput">plot(date,[oil+Singapore supply-tax]);
+xlabel(<span class="string">'&#45216;&#51676;(2009 - 2018)'</span>);
+ylabel(<span class="string">'&#44032;&#44201;(&#50896;)'</span>);
+title(<span class="string">'&#51221;&#50976;&#49548;&#51032; &#50696;&#49345;&#44277;&#44553;&#44032;&#50752; &#51221;&#50976;&#49548;&#51032; &#49464;&#51204;&#49892;&#51228;&#44277;&#44553;&#44032; '</span>,<span class="string">'fontsize'</span>,15);
+legend(<span class="string">' &#50696;&#49345;&#44277;&#44553;&#44032;'</span>,<span class="string">' &#49464;&#51204;&#49892;&#51228;&#44277;&#44553;&#44032;'</span>);
+</pre><img vspace="5" hspace="5" src="gocomsoo_03.png" alt=""> <p><b>&#50696;&#49345;&#44032;&#50752; &#49464;&#51204; &#44277;&#44553;&#44032;&#51032; &#52264;&#51060;&#45716; &#51080;&#51648;&#47564; &#44536; &#54253;&#51060; &#51089;&#44256; &#48708;&#47168;&#54616;&#45716; &#47784;&#49845;&#51012; &#48372;&#51064;&#45796;. &#46384;&#46972;&#49436; &#51221;&#50976;&#49324;&#44032; &#47928;&#51228;&#51032; &#50896;&#51064;&#51060;&#46972;&#44256; &#48380; &#49688; &#50630;&#45796;.</b></p><h2 id="10"><b>&#50896;&#50976;&#50752; &#50976;&#47448;&#49464;</b></h2><pre class="codeinput">bar(date,subtax,<span class="string">'stacked'</span>);
+title(<span class="string">' &#44277;&#44553;&#44032;&#50640;&#49436; &#50976;&#47448;&#49464;&#44032; &#52264;&#51648;&#54616;&#45716; &#48708;&#51473; '</span>,<span class="string">'fontsize'</span>,15);
+xlabel(<span class="string">' &#45216;&#51676; ( 2009 - 2018 ) '</span>);
+ylabel(<span class="string">'&#44032;&#44201; (&#50896;)'</span>);
+legend(<span class="string">' &#50976;&#47448;&#49464;&#51032; &#48708;&#51473;'</span>,<span class="string">' &#44277;&#44553;&#44032;'</span>);
+</pre><img vspace="5" hspace="5" src="gocomsoo_04.png" alt=""> <p><b>&#50948; &#44536;&#47000;&#54532;&#47484; &#53685;&#54644; &#44277;&#44553;&#44032;&#50640;&#49436; &#50976;&#47448;&#49464;&#44032; &#45458;&#51008; &#48708;&#51473;&#51012; &#52264;&#51648;&#54632;&#51012; &#50508; &#49688; &#51080;&#45796;.</b></p><pre class="codeinput">plot(date,[tax,oil]);
+xlabel(<span class="string">' &#45216;&#51676; ( 2009 - 2018 ) '</span>);
+ylabel(<span class="string">'&#44032;&#44201; (&#50896;)'</span>);
+title(<span class="string">'&#50896;&#50976;&#50752; &#50976;&#47448;&#49464;&#51032; &#44288;&#44228;'</span>,<span class="string">'fontsize'</span>,15);
+L = legend(<span class="string">' &#50976;&#47448;&#49464;'</span>,<span class="string">' &#50896;&#50976; &#44050;'</span>);
+set(L,<span class="string">'Location'</span>,<span class="string">'best'</span>);
+</pre><img vspace="5" hspace="5" src="gocomsoo_05.png" alt=""> <p><b>&#50896;&#50976; &#44050;&#51032; &#53360; &#48320;&#46041;&#50640;&#46020; &#48520;&#44396;&#54616;&#44256; &#50976;&#47448;&#49464;&#45716; &#53360; &#48320;&#54868;&#44032; &#50630;&#45716; &#47784;&#49845;&#51060;&#45796;.</b></p><p><b>&#51593;, &#50896;&#50976; &#44050;&#51060; &#46504;&#50612;&#51256;&#46020; &#51452;&#50976;&#49548; &#55064;&#48156;&#50976; &#44050;&#51060; &#51060;&#48372;&#45796; &#52380;&#52380;&#55176; &#46504;&#50612;&#51648;&#45716; &#51060;&#50976;&#45716; &#53444;&#47141;&#51201;&#51060;&#51648; &#47803;&#54620; &#50976;&#47448;&#49464;&#44032; &#55064;&#48156;&#50976; &#44032;&#44201;&#50640; &#53360; &#48708;&#51473;&#51012; &#52264;&#51648;&#54616;&#44256; &#51080;&#45912; &#44163;&#51060; &#50896;&#51064;&#51060;&#50632;&#45796;.</b></p><h2 id="14"><b>&#44208;&#47200;</b></h2><pre class="codeinput">[maxoil,maxindex] = max(oil,[],1);
+[minoil,minindex] = min(oil,[],1);
+a = (maxoil-minoil)/maxoil*100;
+maxtax = tax(maxindex);
+mintax = tax(minindex);
+b = (maxtax-mintax)/maxtax*100;
+maxsupply = supply(maxindex);
+minsupply = supply(minindex);
+c = (maxsupply-minsupply)/maxsupply*100;
+his = [a,b,c];
+
+figure
+h1 = axes;
+name = categorical({<span class="string">'&#50896;&#50976;'</span>, <span class="string">'&#50976;&#47448;&#49464;'</span>,<span class="string">'&#51221;&#50976;&#49324; &#44277;&#44553;&#44032;'</span>});
+h1bar = bar(name,his);
+set(h1, <span class="string">'Ydir'</span>, <span class="string">'reverse'</span>);
+set(h1, <span class="string">'XAxisLocation'</span>, <span class="string">'Top'</span>);
+h1bar.FaceColor = <span class="string">'flat'</span>;
+h1bar.CData(1,:) = [.5 0 0];
+h1bar.CData(2,:) = [0 .5 0];
+h1bar.CData(3,:) = [0 0 .5];
+title(<span class="string">'&#50896;&#50976;, &#50976;&#47448;&#49464;, &#44277;&#44553;&#44032;&#51032; &#44048;&#49548;&#54253;'</span>,<span class="string">'fontsize'</span>,15);
+ylim([0,100]);
+</pre><img vspace="5" hspace="5" src="gocomsoo_06.png" alt=""> <p><b>&#50896;&#50976;&#44032; &#53360; &#54253;&#51004;&#47196; &#44048;&#49548;&#54644;&#46020; &#50976;&#47448;&#49464;&#51032; &#44048;&#49548;&#54253;&#51060; &#54788;&#51200;&#54616;&#44172; &#51089;&#51004;&#47728; &#51221;&#50976;&#49324; &#44277;&#44553;&#44032;&#50640; &#52264;&#51648;&#54616;&#45716; &#48708;&#51473;&#51060; &#50896;&#50976;&#48372;&#45796; &#53356;&#44592; &#46412;&#47928;&#50640; &#49892;&#51656;&#51201;&#51004;&#47196; &#55064;&#48156;&#50976; &#44050;&#51060; &#47566;&#51060; &#45236;&#47140;&#44032;&#51648; &#50506;&#50520;&#45912; &#44163;&#51060;&#45796;!</b></p><p><b>&#51221;&#50976;&#49324;&#44032; &#48276;&#51064;&#51064;&#51460; &#50508;&#50520;&#51648;&#47564; &#51221;&#48512;&#44032; &#48276;&#51064;&#51060;&#50632;&#45796;...</b></p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% *기름 값, 오를땐 LTE 내릴땐 거북이... 범인은 누구?*
+% *데이터분석을 통해 원유가격의 하락에도 잘 떨어지지 않는 휘발유 값의 범인을 알아보자.*
+% *비교 데이터 : 2009 - 2018 기간동안의 원유 값(두바이), 싱가폴 정제 마진, 정유사 공급가( 보통 휘발유)*
+
+%% *원유와 정유사 공급가의 관계*
+
+%%
+% * 원유가의 변동에 따른 소비자 가격은 비례한가 ?
+plot(date,[oil,supply]);
+xlabel('날짜(2009 - 2018)');
+ylabel('가격(원)');
+title('2009 - 2018 원유, 정유사 공급가','fontsize',15);
+legend(' 원유 가격',' 정유사 공급가');
+
+%%
+% ⊙ 두 그래프를 통해 유사하게 변화하는 그래프를 볼 수 있지만, 원유가와 정유사 공급가차이의 이유를 설명할 수 없다.
+% → 정유사의 예상 마진(싱가폴정재마진)을 이용해 비교해보자.
+
+
+%% *정유사의 예상공급가와 실제 공급가*
+plot(date,[oil,supply,oil_Singapore]);
+xlabel('날짜(2009 - 2018)');
+ylabel('가격(원)');
+title('2009-2018 정유사 공급가의 차이','fontsize',15);
+legend(' 원유 가격',' 정유사 실제 공급가','정유사 예상 공급가');
+
+%%
+%                             (정유사 예상 공급가 = 원유 가격 + 정유사 예상 마진)
+
+%% 
+% * 정유사의 예상 공급가와 정유사의 공급가 차이
+%  → 싱가폴정재마진을 통해서 정유사의 예상 마진을 구해봤지만 정유사의 예상 공급가와 실제 공급가 사이에는 여전히 큰 차이가 있다.
+
+%%
+% * *어떤 요인이 이 차이를 만드는 것일까?*
+
+%% *세금이 원인일까?*
+% 세금을 제하고 비교해 보았을 때, 우리는 정유소 예상공급가와 세전실제공급가의 차이가 크지 않다는 것에 주목했다.
+
+plot(date,[oil+Singapore supply-tax]);
+xlabel('날짜(2009 - 2018)');
+ylabel('가격(원)');
+title('정유소의 예상공급가와 정유소의 세전실제공급가 ','fontsize',15);
+legend(' 예상공급가',' 세전실제공급가');
+%%
+% *예상가와 세전 공급가의 차이는 있지만 그 폭이 작고 비례하는 모습을 보인다. 따라서 정유사가 문제의 원인이라고 볼 수 없다.*
+
+%% *원유와 유류세*
+bar(date,subtax,'stacked');
+title(' 공급가에서 유류세가 차지하는 비중 ','fontsize',15);
+xlabel(' 날짜 ( 2009 - 2018 ) ');
+ylabel('가격 (원)');
+legend(' 유류세의 비중',' 공급가');
+
+%%
+% *위 그래프를 통해 공급가에서 유류세가 높은 비중을 차지함을 알 수 있다.* 
+plot(date,[tax,oil]);
+xlabel(' 날짜 ( 2009 - 2018 ) ');
+ylabel('가격 (원)');
+title('원유와 유류세의 관계','fontsize',15);
+L = legend(' 유류세',' 원유 값');
+set(L,'Location','best');
+
+%%
+% *원유 값의 큰 변동에도 불구하고 유류세는 큰 변화가 없는 모습이다.*
+%%
+% *즉, 원유 값이 떨어져도 주유소 휘발유 값이 이보다 천천히 떨어지는 이유는
+% 탄력적이지 못한 유류세가 휘발유 가격에 큰 비중을 차지하고 있던 것이 원인이었다.*
+%% *결론*
+[maxoil,maxindex] = max(oil,[],1);
+[minoil,minindex] = min(oil,[],1);
+a = (maxoil-minoil)/maxoil*100;
+maxtax = tax(maxindex);
+mintax = tax(minindex);
+b = (maxtax-mintax)/maxtax*100;
+maxsupply = supply(maxindex);
+minsupply = supply(minindex);
+c = (maxsupply-minsupply)/maxsupply*100;
+his = [a,b,c];
+
+figure
+h1 = axes;
+name = categorical({'원유', '유류세','정유사 공급가'});
+h1bar = bar(name,his);
+set(h1, 'Ydir', 'reverse');
+set(h1, 'XAxisLocation', 'Top');
+h1bar.FaceColor = 'flat';
+h1bar.CData(1,:) = [.5 0 0];
+h1bar.CData(2,:) = [0 .5 0];
+h1bar.CData(3,:) = [0 0 .5];
+title('원유, 유류세, 공급가의 감소폭','fontsize',15);
+ylim([0,100]);
+%%
+% *원유가 큰 폭으로 감소해도 유류세의 감소폭이 현저하게 작으며 정유사 공급가에 차지하는 비중이 원유보다 크기 때문에 실질적으로 휘발유 값이 
+% 많이 내려가지 않았던 것이다!*
+%%
+% *정유사가 범인인줄 알았지만 정부가 범인이었다...*
+
+##### SOURCE END #####
+--></body></html>
