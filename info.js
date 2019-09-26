@@ -27,7 +27,7 @@ $(document).ready(function () {
       //4826
 
 
-      if($(this).scrollTop() >= 4825 && $(this).scrollTop() < 5825){
+      if($(this).scrollTop() >= 4825 && $(this).scrollTop() < 5925){
         //console.log(count1);
         console.log("count2 : " + count2);
         if(count1 <= 100)
@@ -60,7 +60,7 @@ $(document).ready(function () {
           }
       }
 
-      if($(this).scrollTop() >= 5825 && $(this).scrollTop() < 6622){
+      if($(this).scrollTop() >= 5925 && $(this).scrollTop() < 6622){
         if(count3 <= 100)
           count3 += 4;
         $('#jungEx').css("opacity",count3/100);
@@ -74,7 +74,7 @@ $(document).ready(function () {
         }
 
         if(!(thirdLayer < 545))
-          $(this).scrollTop(5725);//6970
+          $(this).scrollTop(5925);//6970
 
           if((count5||count6) >= 0){
             count5 -= 5;
