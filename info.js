@@ -10,7 +10,7 @@ $(document).ready(function () {
   var count5 = 0;
   var count6 = 0;
   $('.parallax').scroll(function () {
-      if($(this).scrollTop() < 4825){
+      if($(this).scrollTop() < 4925){
         $('.continue.three').show();
         if((count1||count2) >= 0){
           count1 -= 5;
@@ -27,7 +27,7 @@ $(document).ready(function () {
       //4826
 
 
-      if($(this).scrollTop() >= 4825 && $(this).scrollTop() < 5725){
+      if($(this).scrollTop() >= 4925 && $(this).scrollTop() < 5725){
         //console.log(count1);
         console.log("count2 : " + count2);
         if(count1 <= 100)
