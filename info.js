@@ -10,7 +10,7 @@ $(document).ready(function () {
   var count5 = 0;
   var count6 = 0;
   $('.parallax').scroll(function () {
-      if($(this).scrollTop() < 4825){
+      if($(this).scrollTop() < 4725){
         $('.continue.three').show();
         if((count1||count2) >= 0){
           count1 -= 5;
@@ -27,7 +27,7 @@ $(document).ready(function () {
       //4826
 
 
-      if($(this).scrollTop() >= 4825 && $(this).scrollTop() < 5625){
+      if($(this).scrollTop() >= 4725 && $(this).scrollTop() < 5625){
         //console.log(count1);
         console.log("count2 : " + count2);
         if(count1 <= 100)
@@ -45,7 +45,7 @@ $(document).ready(function () {
           $('.degLayer2').css("top",secondLayer+"vh");
         }
         if(!(secondLayer < 425))
-          $(this).scrollTop(4825);//5725
+          $(this).scrollTop(4725);//5725
 
           if((count3||count4) >= 0){
             count3 -= 5;
